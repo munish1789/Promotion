@@ -1,5 +1,8 @@
-package main.java.promo;
+package promo;
 
+/**
+ * This will provide manageability in future when new SKU products are added. Extensible
+ */
 public enum ProductUnit {
 
     A("A",50),

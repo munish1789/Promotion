@@ -1,13 +1,19 @@
-package main.java.promo;
+package promo;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class PromotionService {
 
-    PromotionType type;
 
-    public void PromotionService(PromotionType type){
+    /**
+     * type is used as class variable becasue it is mutually exclusive
+     * For this coding exercise you can assume that the promotions will be mutually exclusive;
+     */
+
+    private PromotionType type;
+
+    public PromotionService(PromotionType type){
         this.type = type;
     }
     public double applyPromotion(String input){

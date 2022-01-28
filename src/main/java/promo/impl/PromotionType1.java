@@ -1,13 +1,15 @@
-package main.java.promo.impl;
+package promo.impl;
 
-import main.java.promo.ProductUnit;
-import main.java.promo.PromotionType;
+
+import promo.ProductUnit;
+import promo.PromotionType;
 
 import java.util.List;
 
 /**
  * First Promotion Type where 3 A value is 130 and 2 B value is 45
- *
+ * 3 of A's for 130
+ * 2 of B's for 45
  */
 public class PromotionType1 implements PromotionType {
     @Override

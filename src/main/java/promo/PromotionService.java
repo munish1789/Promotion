@@ -3,14 +3,14 @@ package promo;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Actual Api that will be exposing the Promotion engine functionality to end users.
+ */
 public class PromotionService {
-
-
     /**
      * type is used as class variable becasue it is mutually exclusive
      * For this coding exercise you can assume that the promotions will be mutually exclusive;
      */
-
     private PromotionType type;
 
     public PromotionService(PromotionType type){

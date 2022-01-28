@@ -22,6 +22,9 @@ public class PromotionService {
 
     private List<ProductUnit> convertToProductUnits(String input) throws  RuntimeException{
 
+        if(input.isEmpty())
+            throw new RuntimeException("Input string is blank ");
+
         List<ProductUnit> units = new ArrayList<>();
 
         for(char c : input.toCharArray()){

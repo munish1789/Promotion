@@ -18,6 +18,7 @@ import promo.impl.PromotionType2;
 
 /**
  * Test cases for TDD approach
+ * @author Munish
  */
 public class PromotionTest {
 

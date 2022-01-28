@@ -7,8 +7,10 @@ import promo.PromotionType;
 import java.util.List;
 
 /**
+ * PromotionType2
  * Second Promotion Type
  * buy SKU 1 & SKU 2 for a fixed price ( C + D = 30 )
+ * @author Munish
  */
 public class PromotionType2 implements PromotionType {
     @Override

@@ -7,9 +7,11 @@ import promo.PromotionType;
 import java.util.List;
 
 /**
+ * PromotionType1
  * First Promotion Type where 3 A value is 130 and 2 B value is 45
  * 3 of A's for 130
  * 2 of B's for 45
+ * @author Munish
  */
 public class PromotionType1 implements PromotionType {
     @Override

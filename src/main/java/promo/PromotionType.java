@@ -2,6 +2,11 @@ package promo;
 
 import java.util.List;
 
+/**
+ * PromotionType
+ * Provide contract for future Promotions types
+ * @author Munish
+ */
 public interface PromotionType {
 
     /**

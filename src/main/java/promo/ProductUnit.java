@@ -1,7 +1,9 @@
 package promo;
 
 /**
+ * ProductUnit
  * This will provide manageability in future when new SKU products are added. Extensible
+ * @author Munish
  */
 public enum ProductUnit {
 

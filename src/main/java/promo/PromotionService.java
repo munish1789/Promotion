@@ -4,8 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * PromotionService
  * Actual Api that will be exposing the Promotion engine functionality to end users.
+ * @author Munish
  */
+
 public class PromotionService {
     /**
      * type is used as class variable becasue it is mutually exclusive
